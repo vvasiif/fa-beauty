@@ -1,0 +1,535 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  .section1 {
+      height: 2150px;
+      background-image: url('assets/sec1.jpg');
+      background-size: 100% 500%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .bg-image {
+      position: relative;
+      width: 100%;
+      opacity: 0.5;
+  }
+
+  .nav {
+      position: relative;
+      padding: 82px 150px 82px 150px;
+  }
+
+  .divider-nav {
+      border-top: 2px solid #2F2F2F;
+  }
+
+  .nav-but {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 13.5px;
+  }
+
+  .nav-but a {
+      text-decoration: none;
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 28px;
+      letter-spacing: 0.05em;
+      color: #383838;
+  }
+
+  .logo {
+      text-align: center;
+      padding-bottom: 94px;
+  }
+
+  .logo h3 {
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56.1691px;
+      line-height: 65px;
+      letter-spacing: 0.05em;
+
+      color: #FBFEFB;
+
+  }
+
+  .logo em {
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56.1691px;
+      line-height: 65px;
+      letter-spacing: 0.05em;
+
+      color: #F5A3B7
+  }
+
+  .img1 {
+      width: 377px;
+      height: 481px;
+      margin-top: 210px;
+  }
+
+  .first-img {
+      margin-top: -850px;
+  }
+
+  .img2 {
+      width: 776px;
+      height: 819px;
+      display: block;
+      margin: 0 auto;
+  }
+
+  .second-img {}
+
+  .img3 {
+      width: 297px;
+      height: 504px;
+      float: right;
+  }
+
+  .third-img {
+      margin-top: -250px;
+  }
+
+  .btn-1 {
+      margin-left: 1480px;
+      margin-top: -480px;
+  }
+
+  .btn-1 button {
+      text-align: left;
+      padding: 18px 50px 18px 18px;
+      border: 1.4375px solid #2F2F2F;
+      border-radius: 3.59375px;
+      cursor: pointer;
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30.4576px;
+      background-color: transparent;
+      color: #383838;
+  }
+
+  .btn-2 {
+      margin-top: 600px;
+      margin-left: 96px;
+  }
+
+  .btn-2 button {
+      text-align: left;
+      padding: 18px 50px 18px 18px;
+      border: 1.4375px solid #2F2F2F;
+      border-radius: 3.59375px;
+      cursor: pointer;
+      font-family: 'Tinos';
+      background-color: transparent;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 27.4096px;
+      line-height: 32px;
+      color: #383838;
+  }
+
+  .intro {
+      margin-top: 50px;
+      padding: 96px;
+  }
+
+  .intro h3 {
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 60.1558px;
+      line-height: 69px;
+      color: #383838;
+  }
+
+  .intro {
+      margin-top: 50px;
+      padding: 96px;
+  }
+
+  .intro h3 {
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 60.1558px;
+      line-height: 69px;
+      color: #383838;
+  }
+
+  .philosophy {
+      margin-left: 950px;
+      margin-top: -680px;
+      padding: 96px;
+  }
+
+  .philosophy h2 {
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 33.3451px;
+      line-height: 38px;
+      text-transform: uppercase;
+      color: #383838;
+  }
+
+  .philosophy h3 {
+      margin-top: 50px;
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 31.1221px;
+      line-height: 36px;
+      color: #383838;
+  }
+
+  .goal {
+      margin-top: 50px;
+      padding: 96px;
+  }
+
+  .goal h2 {
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 33.3451px;
+      line-height: 38px;
+      text-transform: uppercase;
+      color: #383838;
+  }
+
+  .goal h3 {
+      margin-top: 50px;
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 31.1221px;
+      line-height: 36px;
+      color: #383838;
+  }
+
+  .intro-img {
+      float: right;
+      margin-top: -30px;
+  }
+
+  .intro-img img {
+      position: relative;
+      width: 850px;
+      height: 565px;
+
+  }
+
+  .section2 {
+      height: 1850px;
+      background-image: url('assets/sec2.jpg');
+      background-size: 100% 500%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .color-pal {
+      padding-top: 50px;
+      margin-left: 96px;
+  }
+
+  .color-pal h3 {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 57.012px;
+      line-height: 86px;
+      text-transform: uppercase;
+      color: #697586;
+      opacity: 0.3;
+  }
+
+  .color-col1 {
+      display: flex;
+      padding-top: 100px;
+  }
+
+  .color-col2 {
+      display: flex;
+  }
+
+  .color-col3 {
+      display: flex;
+  }
+
+  .colors {
+      align-items: center;
+      display: flex;
+      margin-left: 96px;
+      margin-top: 35px;
+      padding-right: 70px;
+  }
+
+  .colors button {
+      width: 260.12px;
+      height: 91.91px;
+      left: 0px;
+      top: 0px;
+      background: #383838;
+      border: 1.73415px solid #DFE1E3;
+      border-radius: 6.93659px;
+      margin-right: 17px;
+  }
+
+  .colors h3 {
+      font-family: 'Kumbh Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 27.7463px;
+      line-height: 34px;
+      text-transform: capitalize;
+      color: #222222;
+  }
+
+  .colors h2 {
+      font-family: 'Kumbh Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24.278px;
+      line-height: 30px;
+
+      /* lilac */
+
+      color: #B0A6BD;
+  }
+
+  .typo {
+      padding-top: 100px;
+      margin-left: 96px;
+  }
+
+  .typo h3 {
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 57.012px;
+      line-height: 86px;
+      text-transform: uppercase;
+      color: #697586;
+      opacity: 0.3;
+  }
+
+  .base {
+      margin-top: 50px;
+      margin-left: 96px;
+  }
+
+  .base h3 {
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 29.1369px;
+      line-height: 45px;
+      letter-spacing: 0.1em;
+      color: #697586;
+  }
+
+  .heading {
+      margin-top: 90px;
+      margin-left: 96px;
+  }
+
+  .heading h6 {
+      margin-top: 30px;
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 57.33px;
+      line-height: 66px;
+      letter-spacing: 0.05em;
+      color: #697586;
+  }
+
+  .heading h5 {
+      margin-top: 30px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 47.78px;
+      line-height: 55px;
+      letter-spacing: 0.05em;
+
+      color: #697586;
+  }
+
+  .heading h4 {
+      margin-top: 30px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 39.81px;
+      line-height: 46px;
+      letter-spacing: 0.05em;
+
+      color: #697586;
+  }
+
+  .heading h3 {
+      margin-top: 30px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 33.18px;
+      line-height: 38px;
+      letter-spacing: 0.05em;
+
+      color: #697586;
+  }
+
+  .heading h2 {
+      margin-top: 30px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 27.65px;
+      line-height: 32px;
+      letter-spacing: 0.05em;
+
+      color: #697586;
+  }
+
+  .heading h1 {
+      margin-top: 30px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23.04px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+
+      color: #697586;
+
+  }
+
+  .body {
+      margin-left: 96px;
+      margin-top: 30px;
+  }
+
+  .body h3 {
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 19.2px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      color: #697586;
+  }
+
+  .body h6 {
+      margin-top: 25px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 19.2px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      color: #697586;
+  }
+
+  .body h5 {
+      margin-top: 25px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 19.2px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      color: #697586;
+  }
+
+  .body h4 {
+      margin-top: 25px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 18px;
+      letter-spacing: 0.05em;
+      color: #697586;
+  }
+
+  .body h1 {
+      margin-top: 25px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      letter-spacing: 0.05em;
+      color: #697586;
+  }
+
+  .section3 {
+      height: 800px;
+      background-image: url('assets/sec1.jpg');
+      background-size: 100% 500%;
+      background-repeat: no-repeat;
+      background-position: center center;
+  }
+
+  .slog {
+      padding-top: 100px;
+  }
+
+  .slog h3 {
+    margin-left: 235px;
+
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 60.1558px;
+      line-height: 69px;
+
+      color: #383838;
+  }
+
+  .slog img {
+      margin-top: 70px;
+      margin-left: 520px;
+      height: 87px;
+  }
+
+  .slog h2 {
+    margin-top: 30px;
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 52.9136px;
+      line-height: 61px;
+      text-align: center;
+      color: #697586;
+  }
+
+  .fa-solid{
+    margin-top: px;
+    transform: scale(35%);
+    margin-right: 17px;
+  }
